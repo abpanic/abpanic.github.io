@@ -122,9 +122,7 @@ If you want your resume to automatically download when the button is clicked ins
 
 The href attribute points to where your resume is stored and the download attribute is what triggers the download / provides the name the file will be downloaded as when the user clicks the button (In this case, it will download as resume.pdf).
 
-### About Section
 
-The about section contains a quick about blurb that can be edited by changing the text within the paragraph tags.
 
 ### Experience Section
 
