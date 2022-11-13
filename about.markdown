@@ -8,19 +8,9 @@ Technical leader with 12+ year experience with a focus on customer experience, a
        and change management at a global scale. 8 years’ building cross-functional teams and operations improvement to drive customer retention 
       and unparalleled customer experience with operations management driving further cloud utilization. 
 
-    <p><h3>Projects</h3></p>
 
-    <p><h3>Blog</h3></p>
-
-    <p><h3>Education</h3></p>
-
-    <p><h3>Certificates</h3></p>
-
-    <p><h3>Skills</h3></p>
-
-    <p><h3>Contact</h3></p>
 <h2 class="heading">Projects</h2>
-        <div class="education-block">
+        
 			<h4>Software And Database Design - Academic Project</h4>
 			<a href="https://github.com/abpanic/Weather-Data-Solution">View On GitHub</a>                    
             <span>      
@@ -129,3 +119,13 @@ Technical leader with 12+ year experience with a focus on customer experience, a
         <!-- End #contact-form -->
     </div>
     <!-- End #contact -->
+
+        <p><h3>Blog</h3></p>
+
+    <p><h3>Education</h3></p>
+
+    <p><h3>Certificates</h3></p>
+
+    <p><h3>Skills</h3></p>
+
+    <p><h3>Contact</h3></p>
