@@ -30,7 +30,7 @@ author_bio: Hi, my name is Abhilash Panicker. I built this site using devlopr-je
 author_email: "abhilash.panicker@outlook.com"
 author_location: India
 author_website_url: "https://abpanic.github.io"
-typewrite-text: devlopr is a jekyll framework built for developers. You can go through the following articles about debugging and troublshooting. 
+typewrite-text: devlopr is a jekyll framework built for developers. Go through the following articles about debugging and troublshooting. 
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences

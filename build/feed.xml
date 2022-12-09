@@ -5,10 +5,106 @@
     <description>devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Dec 2022 00:16:29 +0530</pubDate>
-    <lastBuildDate>Sat, 10 Dec 2022 00:16:29 +0530</lastBuildDate>
+    <pubDate>Sat, 10 Dec 2022 01:01:03 +0530</pubDate>
+    <lastBuildDate>Sat, 10 Dec 2022 01:01:03 +0530</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
 
+    
+      <item>
+        <title>Troubleshooting Case Flow</title>
+        <description>&lt;h3&gt;Process to be followed to isolate issues based on Kepner-Tregoe approach&lt;/h3&gt;
+
+&lt;p&gt;Case Type : Error / No Error&lt;/p&gt;
+
+&lt;h4&gt;#Error:&lt;/h4&gt;
+&lt;ul&gt;
+	&lt;b&gt;Define the Problem:&lt;/b&gt;
+	&lt;li&gt;Intermittent or Constant error
+	&lt;li&gt;Get Organization URL
+	&lt;li&gt;Get error timestamp in UTC or local time of user and convert to UTC
+
+&lt;b&gt;Can the problem be reproduced?&lt;/b&gt;
+	&lt;li&gt;Does this happen on other machines or other environments like a different organization or different browser?
+	&lt;li&gt;Approval for support instance for online organization
+	&lt;li&gt;Approval for DB copy for On-Premise instances	
+&amp;lt;/ul&amp;gt;
+&lt;ul&gt;&lt;b&gt;What makes the problem worse or better?&lt;/b&gt;
+	&lt;li&gt;When did the issue start happening?&lt;br /&gt;
+	&lt;li&gt;How many users are impacted?&lt;br /&gt;	
+&amp;lt;/ul&amp;gt;
+&lt;ul&gt;&lt;b&gt;What&apos;s changed or new?&lt;/b&gt;
+	&lt;li&gt;What was done before the issue start happening?&lt;br /&gt;
+&amp;lt;/ul&amp;gt;
+&lt;ul&gt;&lt;b&gt;Can I reduce the complexity?&lt;/b&gt;
+&lt;/ul&gt;
+&lt;ul&gt;&lt;b&gt;Has someone else already solved this problem?&lt;/b&gt;
+	&lt;li&gt;Do Google Search with the exact error message in Unify Global Search and Internet
+&amp;lt;/ul&amp;gt;
+&lt;ul&gt;&lt;b&gt;Document the work: screenshots, logs, etc.&lt;/b&gt;
+	&lt;li&gt;Capture exact error message including the entire error stack.
+	&lt;li&gt;Document the Kusto Query and Results/Verbose error logs
+	&lt;li&gt;Capture exact steps to reproduce the issue in environment from the moment or logging into the organization
+	&lt;li&gt;Get Problem Steps Recorder or video recording of the issue
+	&lt;li&gt;Get Fiddler trace or console error logs from browser as HAR file
+&amp;lt;/ul&amp;gt;
+
+
+&lt;p&gt;
+&lt;h4&gt;No Error:&lt;/h4&gt;
+•	What is exact ask? (could be advisory)&lt;br /&gt;
+•	Are they referring some article?&lt;br /&gt;
+•	Is the issue related to D365 CE?&lt;br /&gt;
+&lt;/p&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 10 Dec 2022 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/2022/12/10/CaseFlow/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/12/10/CaseFlow/</guid>
+      </item>
+    
+      <item>
+        <title>Case Documentation Template</title>
+        <description>&lt;h4&gt; Environment Information&lt;/h4&gt;
+&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Online/OnPrem:&lt;/li&gt;
+&lt;li&gt;Org URL:&lt;/li&gt;
+&lt;li&gt;Version:&lt;/li&gt;
+&lt;li&gt;Base Language:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;h4&gt;Issue Description&lt;/h4&gt;&lt;p&gt;
+
+Description:
+
+&lt;h4&gt;Troubleshooting&lt;/h4&gt;&lt;p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Detailed Repro Steps:&lt;/li&gt;
+&lt;li&gt;Time Stamp/ActivityIDs: Error messages:&lt;/li&gt;
+&lt;li&gt;Screen shots attached to case:&lt;/li&gt;
+&lt;li&gt;Affected users:&lt;/li&gt;
+&lt;li&gt;Does this happen on test/vanilla org?&lt;/li&gt;
+&lt;li&gt;Troubleshooting attempted so far:&lt;/li&gt;
+&lt;li&gt;Research:&lt;/li&gt;
+&lt;li&gt;Kusto Query/Jarvis Link:&lt;/li&gt;
+  
+&lt;/ul&gt;  
+  
+Contact Primary Contact listed on case? (if no, please define next contact)
+
+
+&lt;h4&gt;Next Actions&lt;/h4&gt;&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Next action on SE:&lt;/li&gt; 
+&lt;li&gt;Next action on Customer:&lt;/li&gt;
+&lt;li&gt;Next customer contact agreement:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 09 Dec 2021 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/2021/12/09/Case-Documentation/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/12/09/Case-Documentation/</guid>
+      </item>
     
       <item>
         <title>Adding Multiple Categories in Posts</title>
@@ -422,7 +518,7 @@ If you aren’t familiar with Jekyll yet, you should know that it is a static si
 
 ### Steps to create your blog using devlopr-jekyll and Host using Github Pages :
 
-&gt;  **Step 1.**  Fork the repo - [click here](https://github.com/sujaykundu777/devlopr-jekyll/fork)
+&gt;  **Step 1.**  Fork the repo - [click here](https://github.com/abpanic/devlopr-jekyll/fork)
 
 ![Devlopr Jekyll Repo](/assets/img/posts/fork1.PNG){:class=&quot;img-fluid&quot;}
 
