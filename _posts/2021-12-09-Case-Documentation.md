@@ -10,7 +10,7 @@ title: Case Documentation Template
 
 
 **Issue Description** 
-Description:
++Description:
 
 **Troubleshooting** 
 +Detailed Repro Steps:
