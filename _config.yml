@@ -24,7 +24,7 @@ urls:
 
 author_logo: abpanic.jpg
 author: Abhilash Panicker
-author_bio: Hi, my name is Abhilash Panicker. I built this site using jekyll :D
+author_bio: Hi, my name is Abhilash. I built this site using jekyll :D
 author_email: "abhilash.panicker@outlook.com"
 author_location: India
 author_website_url: "https://dbugr.netlify.app/"
@@ -101,7 +101,7 @@ github_username:  abpanic
 #hyvor_talk_website_id: 
 
 #wakatime username (coding activity)
-#wakatime_username: abpanic
+wakatime_username: abpanic
 
 # mailchimp embedded form url (newsletter):
 #mailchimp_form_url: 
