@@ -1,7 +1,15 @@
 ---
-title: Case Documentation Template
----
+layout: post
+title: Issue Documentation Template
+author: abpanic
+date: '2022-12-09'
+category: documentation
+thumbnail: /assets/img/posts/troubleshoot.jpg
+keywords: documentation
+permalink: /blog/documentation/
+usemathjax: true
 
+---
 **Environment Information** 
 +Online/OnPrem:
 +Org URL:
