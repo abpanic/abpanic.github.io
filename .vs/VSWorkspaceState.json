@@ -1,12 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\blog",
-    "\\build",
-    "\\build\\2022",
-    "\\build\\assets\\bower_components",
-    "\\nginx\\html"
+    "\\admin"
   ],
-  "SelectedNode": "\\build",
+  "SelectedNode": "\\_config.yml",
   "PreviewInSolutionExplorer": false
 }

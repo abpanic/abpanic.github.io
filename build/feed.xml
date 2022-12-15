@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>devlopr</title>
-    <description>devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.</description>
+    <title>Dbugr</title>
+    <description>Dbugr-jekyll is built on Jekyll, which is optimized for speed and readability.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Dec 2022 01:01:03 +0530</pubDate>
-    <lastBuildDate>Sat, 10 Dec 2022 01:01:03 +0530</lastBuildDate>
-    <generator>Jekyll v4.2.2</generator>
+    <pubDate>Thu, 15 Dec 2022 15:36:01 +0530</pubDate>
+    <lastBuildDate>Thu, 15 Dec 2022 15:36:01 +0530</lastBuildDate>
+    <generator>Jekyll v4.3.1</generator>
 
     
       <item>
@@ -16,31 +16,36 @@
 
 &lt;p&gt;Case Type : Error / No Error&lt;/p&gt;
 
-&lt;h4&gt;#Error:&lt;/h4&gt;
-&lt;ul&gt;
-	&lt;b&gt;Define the Problem:&lt;/b&gt;
-	&lt;li&gt;Intermittent or Constant error
-	&lt;li&gt;Get Organization URL
-	&lt;li&gt;Get error timestamp in UTC or local time of user and convert to UTC
+&lt;p&gt;&lt;strong&gt;#Error:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;b&gt;Can the problem be reproduced?&lt;/b&gt;
-	&lt;li&gt;Does this happen on other machines or other environments like a different organization or different browser?
-	&lt;li&gt;Approval for support instance for online organization
-	&lt;li&gt;Approval for DB copy for On-Premise instances	
-&amp;lt;/ul&amp;gt;
-&lt;ul&gt;&lt;b&gt;What makes the problem worse or better?&lt;/b&gt;
+&lt;p&gt;**	Define the Problem:**
+	&amp;lt;li&amp;gt;Intermittent or Constant error
+	&amp;lt;li&amp;gt;Get Organization URL
+	&amp;lt;li&amp;gt;Get error timestamp in UTC or local time of user and convert to UTC
+	&amp;lt;p&amp;gt;
+&lt;strong&gt;Can the problem be reproduced?&lt;/strong&gt;
+	&amp;lt;li&amp;gt;Does this happen on other machines or other environments like a different organization or different browser?
+	&amp;lt;li&amp;gt;Approval for support instance for online organization
+	&amp;lt;li&amp;gt;Approval for DB copy for On-Premise instances
+&amp;lt;/ul&amp;gt;&lt;/p&gt;
+&lt;ul&gt;
+**	What makes the problem worse or better?**
 	&lt;li&gt;When did the issue start happening?&lt;br /&gt;
 	&lt;li&gt;How many users are impacted?&lt;br /&gt;	
 &amp;lt;/ul&amp;gt;
-&lt;ul&gt;&lt;b&gt;What&apos;s changed or new?&lt;/b&gt;
+&lt;ul&gt;
+**	What&apos;s changed or new?**
 	&lt;li&gt;What was done before the issue start happening?&lt;br /&gt;
 &amp;lt;/ul&amp;gt;
-&lt;ul&gt;&lt;b&gt;Can I reduce the complexity?&lt;/b&gt;
+&lt;ul&gt;
+**	Can I reduce the complexity?**
 &lt;/ul&gt;
-&lt;ul&gt;&lt;b&gt;Has someone else already solved this problem?&lt;/b&gt;
+&lt;ul&gt;
+**	Has someone else already solved this problem?**
 	&lt;li&gt;Do Google Search with the exact error message in Unify Global Search and Internet
 &amp;lt;/ul&amp;gt;
-&lt;ul&gt;&lt;b&gt;Document the work: screenshots, logs, etc.&lt;/b&gt;
+&lt;ul&gt;
+**	Document the work: screenshots, logs, etc.**
 	&lt;li&gt;Capture exact error message including the entire error stack.
 	&lt;li&gt;Document the Kusto Query and Results/Verbose error logs
 	&lt;li&gt;Capture exact steps to reproduce the issue in environment from the moment or logging into the organization
@@ -54,7 +59,7 @@
 •	What is exact ask? (could be advisory)&lt;br /&gt;
 •	Are they referring some article?&lt;br /&gt;
 •	Is the issue related to D365 CE?&lt;br /&gt;
-&lt;/p&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/p&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/li&gt;&lt;/ul&gt;
 </description>
         <pubDate>Sat, 10 Dec 2022 00:00:00 +0530</pubDate>
         <link>http://localhost:4000/2022/12/10/CaseFlow/</link>
@@ -520,21 +525,21 @@ If you aren’t familiar with Jekyll yet, you should know that it is a static si
 
 &gt;  **Step 1.**  Fork the repo - [click here](https://github.com/abpanic/devlopr-jekyll/fork)
 
-![Devlopr Jekyll Repo](/assets/img/posts/fork1.PNG){:class=&quot;img-fluid&quot;}
+![Dbugr Jekyll Repo](/assets/img/posts/fork1.PNG){:class=&quot;img-fluid&quot;}
 
 &gt; **Step 2.** Use **your-github-username.github.io** as the new repo  ( Replace your-github-username with yours). Remember if you use the name other than your-github-username.github.io , your blog will be built using gh-pages branch.
 
-![Devlopr Jekyll Repo](/assets/img/posts/fork2.PNG){:class=&quot;img-fluid&quot;}
+![Dbugr Jekyll Repo](/assets/img/posts/fork2.PNG){:class=&quot;img-fluid&quot;}
 
-![Devlopr Jekyll Repo](/assets/img/posts/fork3.PNG){:class=&quot;img-fluid&quot;}
+![Dbugr Jekyll Repo](/assets/img/posts/fork3.PNG){:class=&quot;img-fluid&quot;}
 
 &gt; **Step 3.** Clone the new repo locally to make changes :
 
-![Devlopr Jekyll Repo](/assets/img/posts/fork31.PNG){:class=&quot;img-fluid&quot;}
+![Dbugr Jekyll Repo](/assets/img/posts/fork31.PNG){:class=&quot;img-fluid&quot;}
 
-![Devlopr Jekyll Repo](/assets/img/posts/fork32.PNG){:class=&quot;img-fluid&quot;}
+![Dbugr Jekyll Repo](/assets/img/posts/fork32.PNG){:class=&quot;img-fluid&quot;}
 
-![Devlopr Jekyll Repo](/assets/img/posts/fork33.PNG){:class=&quot;img-fluid&quot;}
+![Dbugr Jekyll Repo](/assets/img/posts/fork33.PNG){:class=&quot;img-fluid&quot;}
 
 ```bash
  $ git clone https://github.com/yourusername/yourusername.github.io
@@ -549,7 +554,7 @@ If you aren’t familiar with Jekyll yet, you should know that it is a static si
 - _includes - You can replace the contents of the files with your data. (contains widgets)
 - _assets/img - Add all your images here
 
-![Devlopr Jekyll Repo](/assets/img/posts/fork34.PNG){:class=&quot;img-fluid&quot;}
+![Dbugr Jekyll Repo](/assets/img/posts/fork34.PNG){:class=&quot;img-fluid&quot;}
 
 &gt; **Step 5** - Install the development requirements:
 
@@ -609,7 +614,7 @@ $ jekyll serve
 
 Visit [http://localhost:4000](http://localhost:4000) for development server
 
-![Devlopr Jekyll Repo](/assets/img/posts/fork41.PNG){:class=&quot;img-fluid&quot;}
+![Dbugr Jekyll Repo](/assets/img/posts/fork41.PNG){:class=&quot;img-fluid&quot;}
 
 
 ### Adding Content
@@ -664,11 +669,11 @@ Once happy with your blog changes. Push your changes to master branch.
 
 Visit your Github Repo settings ! Enable master branch as Github Pages Branch :
 
-![Devlopr Jekyll Repo](/assets/img/posts/fork6.PNG){:class=&quot;img-fluid&quot;}
+![Dbugr Jekyll Repo](/assets/img/posts/fork6.PNG){:class=&quot;img-fluid&quot;}
 
 &gt; **Step 9.** Deploy your Blog :
 
-![Devlopr Jekyll Repo](/assets/img/posts/fork7.PNG){:class=&quot;img-fluid&quot;}
+![Dbugr Jekyll Repo](/assets/img/posts/fork7.PNG){:class=&quot;img-fluid&quot;}
 
 &gt; Congrats ! On your new shining Blog !
 
