@@ -2,8 +2,8 @@
 abpanic:
    name: Abhilash Panicker
    username: abpanic
-   site: http://abpanic.github.io
-   avatar: johndoe.png
+   site: https://dbugr.netlify.app/
+   avatar: abpanic.jpg
    bio: "Hi I a Abhilash, a web developer and Data enthusiast."
    email: abhilash.panicker@outlook.com
    social:
@@ -11,11 +11,11 @@ abpanic:
         url: "https://github.com/abpanic"
       - title: "linkedin"
         url: "https://www.linkedin.com/in/abhilash-panicker-68952b159"
-      - title: "youtube"
-        url: ""
-      - title: "medium"
-        url: "https://medium.com/johndoe"
-      - title: "dribbble"
-        url: "https://dribbble.com/johndoe"
+      #- title: "youtube"
+      #  url: ""
+      #- title: "medium"
+      #  url: "https://medium.com/johndoe"
+      #- title: "dribbble"
+      #  url: "https://dribbble.com/johndoe"
 
 
