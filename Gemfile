@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-#gem 'jekyll', '~> 4.3', '>= 4.3.1'
+gem 'jekyll', '~> 4.3', '>= 4.3.1'
 gem 'bundler', '~> 2.3', '>= 2.3.26'
 gem 'faraday-retry', '~> 2.0'
 gem 'backports', '~> 3.23'
@@ -23,7 +23,7 @@ group :jekyll_plugins do
     gem 'jekyll-sitemap', '~> 1.4.0'
     gem 'jekyll-admin', '~> 0.11.1'
     gem 'jekyll-octicons', '~> 17.10'
-    gem 'github-pages', '~> 227'
+    #gem 'github-pages', '~> 227'
 end
 
 

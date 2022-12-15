@@ -1,7 +1,7 @@
 title: Dbugr
 subtitle: A Portfolio Jekyll Theme Built for Programmers
 description: >- # this means to ignore newlines until "baseurl:"
-  Dbugr-jekyll is built on Jekyll, which is optimized for speed and readability.
+  Dbugr is built on Jekyll, which is optimized for speed and readability.
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -156,17 +156,17 @@ plugins:
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-admin
+#  - jekyll-admin
 
 # Jekyll Admin Config
-jekyll_admin:
-   hidden_links:
-     - posts
-     - pages
-     - staticfiles
-     - datafiles
-     - configuration
-homepage: "posts"
+#jekyll_admin:
+#   hidden_links:
+#     - posts
+#     - pages
+#     - staticfiles
+#     - datafiles
+#     - configuration
+#homepage: "posts"
 
 
 # Exclude from processing.
