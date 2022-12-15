@@ -14,10 +14,12 @@ urls:
       url: /about
     - text: Blog
       url: /blog
+    - text: Projects
+      url: /projects
     #- text: Gallery
     #  url: /gallery
-    - text: Shop
-      url : /shop
+    #- text: Shop
+    #  url : /shop
     - text: Contact
       url : /contact
 

@@ -20,9 +20,9 @@ Highly Customizable and No Hosting or Maintainence Cost is required !
 devlopr uses Markdown Files to generate data like Blog Posts, Gallery, Shop Products etc. No external database is required.
 
 
-### Launch your Static Site using Devlopr in minutes :rocket:
+### Launch your Static Site using Dbugr template in minutes :rocket:
 
-To get started follow this [Tutorial](https://devlopr.netlify.app/get-started)
+To get started follow this [Tutorial](https://dbugr.netlify.app/get-started)
 
 or if you want to try fast :
 
