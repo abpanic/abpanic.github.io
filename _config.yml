@@ -26,7 +26,7 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: abpanic.jpg
+author_logo: /assets/img/abpanic.jpg
 author: Abhilash Panicker
 author_bio: Hi, my name is Abhilash Panicker. I built this site using Dbugr-jekyll :D
 author_email: "abhilash.panicker@outlook.com"
@@ -43,11 +43,26 @@ author_work_experiences:
               designation: Partner Technical Advisor
               description: Worked on Digital Transformation Platform
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
+
+            - company_name: Wipro
+              company_logo: wipro.png
               company_url: https://microsoft.com
-              designation: Azure Developer
+              designation: Consultant
               description: Worked on various Azure Cloud Products
+              visibility: true
+
+            - company_name: IKS Health(formerly Inventurus Knowledge Solution)
+              company_logo: iks.png
+              company_url: https://wipro.com
+              designation: Technical Associate
+              description: Data Engineer
+              visibility: true
+
+            - company_name: Sitel
+              company_logo: sitel.png
+              company_url: https://microsoft.com
+              designation: CCR
+              description: SQL
               visibility: true
 
 # Education
