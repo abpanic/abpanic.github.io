@@ -2,21 +2,17 @@
 title: Case Documentation Template
 ---
 
-** Environment Information**
-
+**Environment Information** 
 +Online/OnPrem:
 +Org URL:
 +Version:
 +Base Language:
 
 
-**Issue Description**
-
+**Issue Description** 
 Description:
 
-**Troubleshooting**
-
-
+**Troubleshooting** 
 +Detailed Repro Steps:
 +Time Stamp/ActivityIDs: Error messages:
 +Screen shots attached to case:
@@ -31,9 +27,8 @@ Description:
 Contact Primary Contact listed on case? (if no, please define next contact)
 
 
-**Next Actions**
-
-+Next action on SE: 
+**Next Actions** 
++Next action on Engineer: 
 +Next action on Customer:
-+Next customer contact agreement:
++Next contact agreement:
 

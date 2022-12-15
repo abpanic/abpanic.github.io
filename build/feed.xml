@@ -5,8 +5,8 @@
     <description>Dbugr is built on Jekyll, which is optimized for speed and readability.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Dec 2022 00:22:16 +0530</pubDate>
-    <lastBuildDate>Fri, 16 Dec 2022 00:22:16 +0530</lastBuildDate>
+    <pubDate>Fri, 16 Dec 2022 00:27:44 +0530</pubDate>
+    <lastBuildDate>Fri, 16 Dec 2022 00:27:44 +0530</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
 
     
@@ -18,30 +18,22 @@
 
 &lt;p&gt;&lt;strong&gt;#Error:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Define the Problem:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Define the Problem:&lt;/strong&gt; 
+	+Intermittent or Constant error
+	+Get Organization URL
+	+Get error timestamp in UTC or local time of user and convert to UTC&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;+Intermittent or Constant error
-+Get Organization URL
-+Get error timestamp in UTC or local time of user and convert to UTC
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Can the problem be reproduced?&lt;/strong&gt; 
+	+Does this happen on other machines or other environments like a different organization or different browser?
+	+Approval for support instance for online organization
+	+Approval for DB copy for On-Premise instances&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Can the problem be reproduced?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What makes the problem worse or better?&lt;/strong&gt; 
+	+When did the issue start happening?
+	+How many users are impacted?&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;+Does this happen on other machines or other environments like a different organization or different browser?
-+Approval for support instance for online organization
-+Approval for DB copy for On-Premise instances	
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;What makes the problem worse or better?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;+When did the issue start happening?
-+How many users are impacted?	
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;What’s changed or new?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;+What was done before the issue start happening?
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;What’s changed or new?&lt;/strong&gt; 
+	+What was done before the issue start happening?&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Can I reduce the complexity?&lt;/strong&gt;&lt;/p&gt;
 
@@ -67,20 +59,17 @@
     
       <item>
         <title>Case Documentation Template</title>
-        <description>&lt;p&gt;** Environment Information**&lt;/p&gt;
-
-&lt;p&gt;+Online/OnPrem:
+        <description>&lt;p&gt;&lt;strong&gt;Environment Information&lt;/strong&gt; 
++Online/OnPrem:
 +Org URL:
 +Version:
 +Base Language:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Issue Description&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Issue Description&lt;/strong&gt; 
+Description:&lt;/p&gt;
 
-&lt;p&gt;Description:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Troubleshooting&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;+Detailed Repro Steps:
+&lt;p&gt;&lt;strong&gt;Troubleshooting&lt;/strong&gt; 
++Detailed Repro Steps:
 +Time Stamp/ActivityIDs: Error messages:
 +Screen shots attached to case:
 +Affected users:
@@ -91,11 +80,10 @@
 
 &lt;p&gt;Contact Primary Contact listed on case? (if no, please define next contact)&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Next Actions&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;+Next action on SE: 
+&lt;p&gt;&lt;strong&gt;Next Actions&lt;/strong&gt; 
++Next action on Engineer: 
 +Next action on Customer:
-+Next customer contact agreement:&lt;/p&gt;
++Next contact agreement:&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 09 Dec 2021 00:00:00 +0530</pubDate>
