@@ -1,7 +1,7 @@
 ---
 name: Abhilash Panicker
-username: xplor4r
-bio: "Full Stack Web Developer, based in Bangalore, India"
+username: abpanic
+bio: "Data Enthusiast with Program Manager experience, based in Bangalore, India"
 site: https://abpanic.github.io
 avatar: xplor4r.png
 email: abhilash.panicker@outlook.com

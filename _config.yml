@@ -1,7 +1,7 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: Dbugr
+subtitle: A Portfolio Jekyll Theme Built for Programmers
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+  Dbugr-jekyll is built on Jekyll, which is optimized for speed and readability.
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -14,8 +14,8 @@ urls:
       url: /about
     - text: Blog
       url: /blog
-    - text: Gallery
-      url: /gallery
+    #- text: Gallery
+    #  url: /gallery
     - text: Shop
       url : /shop
     - text: Contact
@@ -26,11 +26,11 @@ urls:
 
 author_logo: profile.png
 author: Abhilash Panicker
-author_bio: Hi, my name is Abhilash Panicker. I built this site using devlopr-jekyll :D
+author_bio: Hi, my name is Abhilash Panicker. I built this site using Dbugr-jekyll :D
 author_email: "abhilash.panicker@outlook.com"
 author_location: India
 author_website_url: "https://abpanic.github.io"
-typewrite-text: devlopr is a jekyll framework built for developers. Go through the following articles about debugging and troublshooting. 
+typewrite-text: Dbugr is a built on jekyll framework. Go through the following articles about debugging , troublshooting and programming. 
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
@@ -50,11 +50,11 @@ author_work_experiences:
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: jnu-logo.png
+                college_name: Jaipur National University
+                college_url: https://www.jnujaipur.ac.in/
+                college_degree: Bachelor of Computer Applications
+                description: Bachelor of Computer Applications
                 visibility: true
 
 # Projects
@@ -84,21 +84,21 @@ github_username:  abpanic
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
-# disqus_shortname: sujay-kundu
-#hyvor_talk_website_id: 476
+# disqus_shortname: 
+#hyvor_talk_website_id: 
 
-# wakatime username (coding activity)
-#wakatime_username: sujaykundu777
+#wakatime username (coding activity)
+#wakatime_username: abpanic
 
 # mailchimp embedded form url (newsletter):
-#mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+#mailchimp_form_url: 
 
 # contact form - (choose formspress or getform)
 getform_endpoint: 0c3a340e-bf4c-47c2-86ce-e7ba6e89a359
 #formspree_endpoint: xyyvnzaq
 
 # releases - widget can be (sidebar, modal or embed)
-olvy_organization: devlopr
+olvy_organization: Dbugr
 olvy_widget_type: sidebar
 
 # syntax highlighter
@@ -116,13 +116,6 @@ paginate: 4
 per_page: 4
 paginate_path: "/blog/page/:num/"
 
-# minify
-# compress_html:
-#   clippings: all
-#   comments: ["<!-- ", " -->"]
-#   endings: all
-#   ignore:
-#     envs: ['development']
 
 # Archives
 # jekyll-archives:
@@ -134,7 +127,7 @@ paginate_path: "/blog/page/:num/"
 
 collections:
   products:
-    output: true
+    output: false
   authors:
     output: true
 
@@ -167,13 +160,13 @@ plugins:
 
 # Jekyll Admin Config
 jekyll_admin:
-  # hidden_links:
-  #   - posts
-  #   - pages
-  #   - staticfiles
-  #   - datafiles
-  #   - configuration
-  homepage: "posts"
+   hidden_links:
+     - posts
+     - pages
+     - staticfiles
+     - datafiles
+     - configuration
+homepage: "posts"
 
 
 # Exclude from processing.
