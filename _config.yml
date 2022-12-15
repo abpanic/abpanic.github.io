@@ -16,10 +16,6 @@ urls:
       url: /blog
     - text: Projects
       url: /projects
-    #- text: Gallery
-    #  url: /gallery
-    #- text: Shop
-    #  url : /shop
     - text: Contact
       url : /contact
 
@@ -28,7 +24,7 @@ urls:
 
 author_logo: abpanic.jpg
 author: Abhilash Panicker
-author_bio: Hi, my name is Abhilash Panicker. I built this site using Dbugr-jekyll :D
+author_bio: Hi, my name is Abhilash Panicker. I built this site using jekyll :D
 author_email: "abhilash.panicker@outlook.com"
 author_location: India
 author_website_url: "https://dbugr.netlify.app/"
