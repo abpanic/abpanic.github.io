@@ -26,14 +26,14 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.png
+author_logo: abpanic.jpg
 author: Abhilash Panicker
 author_bio: Hi, my name is Abhilash Panicker. I built this site using Dbugr-jekyll :D
 author_email: "abhilash.panicker@outlook.com"
 author_location: India
 author_website_url: "https://dbugr.netlify.app/"
 typewrite-text: Dbugr is a built on jekyll framework. Go through the following articles about debugging , troublshooting and programming. 
-hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+hero_cover_img: abpanic.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
