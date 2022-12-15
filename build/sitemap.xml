@@ -2,19 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/blog/authors/abpanic</loc>
-<lastmod>2022-12-16T00:02:55+05:30</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/blog/welcome-to-devlopr-jekyll/</loc>
-<lastmod>2019-05-22T14:35:23+05:30</lastmod>
+<lastmod>2022-12-16T00:22:16+05:30</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blog/using-netlify-cms/</loc>
 <lastmod>2020-05-23T15:22:20+05:30</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/blog/added-latex-equations-support/</loc>
-<lastmod>2020-10-24T10:35:23+05:30</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blog/added-multi-author-support/</loc>

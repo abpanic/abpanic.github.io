@@ -2,8 +2,8 @@
 name: Abhilash Panicker
 username: abpanic
 bio: "Data Enthusiast with Program Manager experience, based in Bangalore, India"
-site: https://abpanic.github.io
-avatar: xplor4r.png
+site: https://dbugr.netlify.app/
+avatar: abpanic.jpg
 email: abhilash.panicker@outlook.com
 social:
     - title: "github"

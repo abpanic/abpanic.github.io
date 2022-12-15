@@ -3,7 +3,7 @@ subtitle: A Portfolio Jekyll Theme Built for Programmers
 description: >- # this means to ignore newlines until "baseurl:"
   Dbugr is built on Jekyll, which is optimized for speed and readability.
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://dbugr.netlify.app/" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
@@ -31,7 +31,7 @@ author: Abhilash Panicker
 author_bio: Hi, my name is Abhilash Panicker. I built this site using Dbugr-jekyll :D
 author_email: "abhilash.panicker@outlook.com"
 author_location: India
-author_website_url: "https://abpanic.github.io"
+author_website_url: "https://dbugr.netlify.app/"
 typewrite-text: Dbugr is a built on jekyll framework. Go through the following articles about debugging , troublshooting and programming. 
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
