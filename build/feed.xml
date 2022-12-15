@@ -5,8 +5,8 @@
     <description>Dbugr is built on Jekyll, which is optimized for speed and readability.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 15 Dec 2022 23:50:27 +0530</pubDate>
-    <lastBuildDate>Thu, 15 Dec 2022 23:50:27 +0530</lastBuildDate>
+    <pubDate>Thu, 15 Dec 2022 23:54:42 +0530</pubDate>
+    <lastBuildDate>Thu, 15 Dec 2022 23:54:42 +0530</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
 
     
@@ -59,43 +59,36 @@
     
       <item>
         <title>Case Documentation Template</title>
-        <description>&lt;h4&gt; Environment Information&lt;/h4&gt;
-&lt;p&gt;
-&lt;ul&gt;
-&lt;li&gt;Online/OnPrem:&lt;/li&gt;
-&lt;li&gt;Org URL:&lt;/li&gt;
-&lt;li&gt;Version:&lt;/li&gt;
-&lt;li&gt;Base Language:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-&lt;h4&gt;Issue Description&lt;/h4&gt;&lt;p&gt;
+        <description>&lt;p&gt;** Environment Information**&lt;/p&gt;
 
-Description:
+&lt;p&gt;+Online/OnPrem:
++Org URL:
++Version:
++Base Language:&lt;/p&gt;
 
-&lt;h4&gt;Troubleshooting&lt;/h4&gt;&lt;p&gt;
+&lt;p&gt;&lt;strong&gt;Issue Description&lt;/strong&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;Detailed Repro Steps:&lt;/li&gt;
-&lt;li&gt;Time Stamp/ActivityIDs: Error messages:&lt;/li&gt;
-&lt;li&gt;Screen shots attached to case:&lt;/li&gt;
-&lt;li&gt;Affected users:&lt;/li&gt;
-&lt;li&gt;Does this happen on test/vanilla org?&lt;/li&gt;
-&lt;li&gt;Troubleshooting attempted so far:&lt;/li&gt;
-&lt;li&gt;Research:&lt;/li&gt;
-&lt;li&gt;Kusto Query/Jarvis Link:&lt;/li&gt;
-  
-&lt;/ul&gt;  
-  
-Contact Primary Contact listed on case? (if no, please define next contact)
+&lt;p&gt;Description:&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;Troubleshooting&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h4&gt;Next Actions&lt;/h4&gt;&lt;p&gt;
-&lt;ul&gt;
-&lt;li&gt;Next action on SE:&lt;/li&gt; 
-&lt;li&gt;Next action on Customer:&lt;/li&gt;
-&lt;li&gt;Next customer contact agreement:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;+Detailed Repro Steps:
++Time Stamp/ActivityIDs: Error messages:
++Screen shots attached to case:
++Affected users:
++Does this happen on test/vanilla org?
++Troubleshooting attempted so far:
++Research:
++Kusto Query/Jarvis Link:&lt;/p&gt;
+
+&lt;p&gt;Contact Primary Contact listed on case? (if no, please define next contact)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Next Actions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;+Next action on SE: 
++Next action on Customer:
++Next customer contact agreement:&lt;/p&gt;
+
 </description>
         <pubDate>Thu, 09 Dec 2021 00:00:00 +0530</pubDate>
         <link>http://localhost:4000/2021/12/09/Case-Documentation/</link>
