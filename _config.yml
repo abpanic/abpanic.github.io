@@ -29,7 +29,7 @@ author_email: "abhilash.panicker@outlook.com"
 author_location: India
 author_website_url: "https://dbugr.netlify.app/"
 typewrite-text: Dbugr is built on jekyll framework. Review, comment and share blogs about debugging and programming. 
-hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+hero_cover_img: VirtualNodeMap.png # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
