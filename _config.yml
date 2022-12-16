@@ -70,6 +70,8 @@ author_education_details:
                 description: Bachelor of Computer Applications
                 visibility: true
 
+
+
 # Projects
 author_project_details:
               - project_thumbnail: gamershub.png
@@ -82,6 +84,8 @@ author_project_details:
                 project_description: A Platform built for Hackers and Penetration Testers
                 project_url: https://hack4r.com
                 visibility: true
+#Badges
+#Credly: abhilash-panicker
 
 # social links
 #twitter_username: johndoe
