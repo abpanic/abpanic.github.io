@@ -64,6 +64,12 @@ author_work_experiences:
 # Education
 author_education_details:
               - college_logo: jnu-logo.png
+                college_name: University of Colorado Boulder
+                college_url: https://www.colorado.edu/
+                college_degree: Master of Science
+                description: DataScience
+                visibility: true
+              - college_logo: jnu-logo.png
                 college_name: Jaipur National University
                 college_url: https://www.jnujaipur.ac.in/
                 college_degree: Bachelor of Computer Applications
@@ -78,12 +84,12 @@ author_project_details:
                 project_title: Gamers Hub
                 project_description: A Platform built for Gamers and Game Devs
                 project_url: https://gamershub.in
-                visibility: true
+                visibility: false
               - project_thumbnail: hack4r.PNG
                 project_title: Hack4r
                 project_description: A Platform built for Hackers and Penetration Testers
                 project_url: https://hack4r.com
-                visibility: true
+                visibility: false
 #Badges
 #Credly: abhilash-panicker
 
