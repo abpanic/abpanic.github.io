@@ -48,15 +48,15 @@ author_work_experiences:
               visibility: true
 
             - company_name: IKS Health(formerly Inventurus Knowledge Solution)
-              company_logo: iks.png
-              company_url: https://wipro.com
+              company_logo: IKSHealth.png
+              company_url: https://www.ikshealth.com/
               designation: Technical Associate
               description: Data Engineer
               visibility: true
 
             - company_name: Sitel
-              company_logo: sitel.png
-              company_url: https://microsoft.com
+              company_logo: sitel.jpg
+              company_url: https://www.sitel.com/
               designation: CCR
               description: SQL
               visibility: true
