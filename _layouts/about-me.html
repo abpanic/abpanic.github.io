@@ -148,17 +148,18 @@ layout: default
       %}
       <div class="row">
         <div class="col-md-2">
-            <a href="{{exp.company_url}}">
-                {{ exp.company_url}}
-                <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}"
-                     class="company-logo" />
-            </a>
+            <img
+            src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}"
+            class="company-logo"
+          />
         </div>
         <div class="col-md-6">
-          <h4 class="experience-title">{{ exp.designation }}</h4>
-          <h6 class="experience-info">{{ exp.company_name}}</h6>
-          <p class="experience-desc">{{ exp.description }}</p>
-          <!---<p></p>-->
+            <h4 class="experience-title">{{ exp.designation }}</h4>
+            <a href="{{exp.company_url}}">
+                <h6 class="experience-info">{{ exp.company_name}}</h6>
+            </a>
+            <p class="experience-desc">{{ exp.description }}</p>
+            <!--<p><a href="{{exp.company_url}}">{{ exp.company_url}}</a></p>-->
         </div>
       </div>
       {% endif %} {% endfor %}
