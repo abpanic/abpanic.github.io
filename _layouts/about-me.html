@@ -8,7 +8,7 @@ layout: default
       <a href="/">
         <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="profile-img" />
       </a>
-      <h1 class="profile-name">{{ site.title }}</h1>
+      <h3 class="profile-name">{{ site.title }}</h3>
       <p class="profile-bio">{{ site.subtitle }}</p>
       {% if site.github_username %} {%- include github_follow_button.html -%} {%
       endif %}
@@ -94,14 +94,14 @@ layout: default
     </div>
 
     <div class="card">
-      <h1>Skills</h1>
+      <h3>Skills</h3>
 
       {%- include author_skills.html -%}
     </div>
 
     {% if site.wakatime_username %}
     <div class="card">
-      <h1>Coding Activity</h1>
+      <h3>Coding Activity</h3>
 
       {%- include coding_activity.html -%}
     </div>
@@ -110,12 +110,12 @@ layout: default
   <div class="col-lg-8">
     {% if site.author_bio %}
     <div class="card">
-      <h1 class="card-title">About</h1>
+      <h3 class="card-title">About</h3>
       <p>{{ site.author_bio }}</p>
     </div>
     {% endif %} {% if site.show_author_project_details == true %}
     <div id="author_projects" class="card">
-      <h1 class="card-title">Projects</h1>
+      <h3 class="card-title">Projects</h3>
       <br />
       {% for project in site.author_project_details %} {% if project.visibility
       == true %}
