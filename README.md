@@ -1,4 +1,4 @@
-### devlopr-jekyll - A Beautiful Jekyll Theme Built for Developers
+### Dbugr-jekyll - A Beautiful Jekyll Theme for your Portfolio
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
@@ -11,13 +11,13 @@
 [![Bakers](https://opencollective.com/devlopr-jekyll/tiers/badge.svg)](https://opencollective.com/devlopr-jekyll/)
 
 
-You can use Devlopr as a starter for building your own Site. we purposely keep the styling minimal and bare to make it easier to add your own flare and markup. (Under Active Development) !
+You can use Dbugr as a starter for building your own Site. we purposely keep the styling minimal and bare to make it easier to add your own flare and markup. (Under Active Development) !
 
 Highly Customizable and No Hosting or Maintainence Cost is required !
 
-![devlopr jekyll](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/screenshot.PNG?raw=true)
+![Dbugr jekyll](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/screenshot.PNG?raw=true)
 
-devlopr uses Markdown Files to generate data like Blog Posts, Gallery, Shop Products etc. No external database is required.
+Dbugr uses Markdown Files to generate data like Blog Posts, Gallery, Shop Products etc. No external database is required.
 
 
 ### Launch your Static Site using Dbugr template in minutes :rocket:
@@ -182,12 +182,11 @@ This Project has actions to auto deploy jekyll to github pages and firebase. The
 - Comments using [Hyvor](https://talk.hyvor.com/) and [Disqus](https://disqus.com/)
 - SEO-optimized
 - Real Time Search - [Algolia](https://sujaykundu.com/blog/adding-real-time-search-to-jekyll-site-using-algolia/)
-- Sell Stuff (Ecommerce) in your Blog using [Snipcart](https://snipcart.com/)
 - Send Newsletters using [Mailchimp](https://mailchimp.com/)
 - Contact Forms Support for [Getform](https://getform.io), [Formspree](https://formspree.io/)
 - Coding Activity using [Wakatime](https://wakatime.com/)
-- Hosting Support for [Github Pages](https://pages.github.com), [Netlify](https://netlify.com), [Vercel](https://vercel.com), [Heroku](https://heroku.com), [AWS Amplify](aws.amplify.com), [Firebase](https://firebase.com)
-- CI/CD Support using [Travis CI](https://sujaykundu.com/blog/deploy-jekyll-blog-using-github-pages-and-travis-ci/)
+- Hosting Support for [Github Pages](https://pages.github.com), [Netlify](https://netlify.com)
+- CI/CD Support using [GitHub](https://sujaykundu.com/blog/deploy-jekyll-blog-using-github-pages-and-travis-ci/)
 
 #### Jekyll Admin
 You can easily manage the site locally using the Jekyll admin : [http://localhost:4000/admin](http://localhost:4000/admin)
