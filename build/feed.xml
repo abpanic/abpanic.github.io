@@ -5,22 +5,20 @@
     <description>Dbugr is built on Jekyll, which is optimized for speed and readability.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Dec 2022 01:13:22 +0530</pubDate>
-    <lastBuildDate>Sun, 18 Dec 2022 01:13:22 +0530</lastBuildDate>
+    <pubDate>Sun, 18 Dec 2022 02:03:44 +0530</pubDate>
+    <lastBuildDate>Sun, 18 Dec 2022 02:03:44 +0530</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
 
     
       <item>
         <title>Sorting Algorithms</title>
-        <description>&lt;p&gt;##Sorting Algorithms&lt;/p&gt;
+        <description>&lt;p&gt;There are many different sorting algorithms that can be used to arrange data in a specific order.&lt;/p&gt;
 
-&lt;p&gt;There are many different sorting algorithms that can be used to arrange data in a specific order.&lt;/p&gt;
-
-&lt;p&gt;###What is time complexity?&lt;/p&gt;
+&lt;h3 id=&quot;what-is-time-complexity&quot;&gt;What is time complexity?&lt;/h3&gt;
 
 &lt;p&gt;The time complexity of a sorting algorithm refers to the amount of time it takes to sort a list of a given size.&lt;/p&gt;
 
-&lt;p&gt;###What is space complexity?&lt;/p&gt;
+&lt;h3 id=&quot;what-is-space-complexity&quot;&gt;What is space complexity?&lt;/h3&gt;
 
 &lt;p&gt;The space complexity refers to the amount of additional memory space that the algorithm requires to perform the sort.&lt;/p&gt;
 
@@ -28,8 +26,9 @@
 
 &lt;p&gt;&lt;strong&gt;Bubble sort:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;How it works?
-This algorithm compares adjacent elements and swaps them if they are in the wrong order.
+&lt;p&gt;How it works?&lt;/p&gt;
+
+&lt;p&gt;This algorithm compares adjacent elements and swaps them if they are in the wrong order.
 It repeats this process until the list is sorted.&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Time complexity: O(n^2)
@@ -38,8 +37,9 @@ Space complexity: O(1)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Selection sort:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;How it works?
-This algorithm selects the smallest element in the list and swaps it with the first element.
+&lt;p&gt;How it works?&lt;/p&gt;
+
+&lt;p&gt;This algorithm selects the smallest element in the list and swaps it with the first element.
 It then selects the second smallest element and swaps it with the second element, and so on, until the list is sorted.&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Time complexity: O(n^2)
@@ -48,8 +48,9 @@ Space complexity: O(1)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Insertion sort:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;How it works?
-This algorithm starts with the second element in the list and compares it to the first element.
+&lt;p&gt;How it works?&lt;/p&gt;
+
+&lt;p&gt;This algorithm starts with the second element in the list and compares it to the first element.
 If the second element is smaller, it is swapped with the first element. The algorithm then compares the third element to the first and second elements, and swaps it with the appropriate element. This process continues until the list is sorted.&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Time complexity: O(n^2)
@@ -58,8 +59,9 @@ Space complexity: O(1)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Merge sort:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;How it works?
-This algorithm divides the list into two smaller lists, sorts each of these lists, and then merges the two sorted lists back together.&lt;/p&gt;
+&lt;p&gt;How it works?&lt;/p&gt;
+
+&lt;p&gt;This algorithm divides the list into two smaller lists, sorts each of these lists, and then merges the two sorted lists back together.&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Time complexity: O(n*log(n))
 Space complexity: O(n)&lt;/p&gt;
@@ -67,8 +69,9 @@ Space complexity: O(n)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Quick sort:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;How it works?
-This algorithm selects a “pivot” element and rearranges the list so that all elements less than the pivot are placed before it and all elements greater than the pivot are placed after it.
+&lt;p&gt;How it works?&lt;/p&gt;
+
+&lt;p&gt;This algorithm selects a “pivot” element and rearranges the list so that all elements less than the pivot are placed before it and all elements greater than the pivot are placed after it.
 The algorithm then repeats this process on the sublists to the left and right of the pivot until the list is sorted.&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Time complexity: O(n*log(n))
@@ -77,8 +80,9 @@ Space complexity: O(log(n))&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Heap sort:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;How it works?
-This algorithm uses a data structure called a heap to sort the list.
+&lt;p&gt;How it works?&lt;/p&gt;
+
+&lt;p&gt;This algorithm uses a data structure called a heap to sort the list.
 It first builds a heap from the list, and then repeatedly removes the largest element from the heap and adds it to the sorted list until the heap is empty.&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Time complexity: O(n*log(n))
@@ -87,15 +91,17 @@ Space complexity: O(1)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Counting sort:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;How it works?
-This algorithm works by counting the number of occurrences of each unique element in the list and using this information to determine the position of each element in the sorted list.&lt;/p&gt;
+&lt;p&gt;How it works?&lt;/p&gt;
+
+&lt;p&gt;This algorithm works by counting the number of occurrences of each unique element in the list and using this information to determine the position of each element in the sorted list.&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Time complexity: O(n+k) where k is the number of unique elements in the list
 Space complexity: O(k)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;These are just a few examples of the many different sorting algorithms that are available. Each algorithm has its own strengths and weaknesses, and the choice of which algorithm to use will depend on the specific requirements of the problem at hand.
-About complexity:
+&lt;p&gt;These are just a few examples of the many different sorting algorithms that are available. Each algorithm has its own strengths and weaknesses, and the choice of which algorithm to use will depend on the specific requirements of the problem at hand.&lt;/p&gt;
+
+&lt;p&gt;About complexity:
 The time complexity of a sorting algorithm is typically expressed using big O notation, which gives an upper bound on the number of steps the algorithm takes to complete. For example, an algorithm with a time complexity of O(n^2) will take no more than a quadratic number of steps to sort a list of size n. The space complexity is typically expressed in terms of the size of the input list.
 It’s important to note that these time and space complexities are based on the worst-case scenarios for each algorithm. In practice, some algorithms may perform better than their worst-case complexities would suggest, depending on the specific input data.&lt;/p&gt;
 </description>
@@ -172,7 +178,7 @@ It’s important to note that these time and space complexities are based on the
     
       <item>
         <title>Issue Documentation Template</title>
-        <description>&lt;p&gt;###Environment Information&lt;/p&gt;
+        <description>&lt;h3 id=&quot;environment-information&quot;&gt;Environment Information&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;Online/OnPrem:&lt;/li&gt;
   &lt;li&gt;Org URL:&lt;/li&gt;
@@ -180,12 +186,12 @@ It’s important to note that these time and space complexities are based on the
   &lt;li&gt;Base Language:&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;###Issue Description&lt;/p&gt;
+&lt;h3 id=&quot;issue-description&quot;&gt;Issue Description&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;Description:&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;###Troubleshooting&lt;/p&gt;
+&lt;h3 id=&quot;troubleshooting&quot;&gt;Troubleshooting&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;Detailed Repro Steps:&lt;/li&gt;
   &lt;li&gt;Time Stamp/ActivityIDs: Error messages:&lt;/li&gt;
@@ -199,7 +205,7 @@ It’s important to note that these time and space complexities are based on the
 
 &lt;p&gt;Contact Primary Contact listed on case? (if no, please define next contact)&lt;/p&gt;
 
-&lt;p&gt;###Next Actions&lt;/p&gt;
+&lt;h3 id=&quot;next-actions&quot;&gt;Next Actions&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;Next action on Engineer:&lt;/li&gt;
   &lt;li&gt;Next action on Customer:&lt;/li&gt;
