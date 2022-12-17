@@ -1,9 +1,10 @@
+#used by jekyll-feed:- title, description,url,author
 title: Dbugr
 subtitle: Abhilash Panicker's portfolio
 description: >- # this means to ignore newlines until "baseurl:"
   Dbugr is built on Jekyll, which is optimized for speed and readability.
 
-url: "https://dbugr.netlify.app/" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://dbugr.netlify.app/" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
@@ -22,14 +23,16 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
+#image on the homepage
 author_logo: abpanic.jpg
 author: Abhilash Panicker
 author_bio: Hi, my name is Abhilash. I built this site using jekyll :D
 author_email: "abhilash.panicker@outlook.com"
 author_location: Bangalore, India
 author_website_url: "https://dbugr.netlify.app/"
-typewrite-text: Dbugr is built on jekyll framework. Review, comment and share blogs about debugging , tutorials. 
-hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+typewrite-text: Dbugr is built on jekyll framework. Review, comment and share blogs about debugging , tutorials and projects.
+#background homepage cpover at /assets/img
+hero_cover_img: sample_cover.jpg 
 
 # Experiences
 author_work_experiences:
@@ -94,6 +97,11 @@ author_project_details:
 #Badges
 #Credly: abhilash-panicker
 
+#configuring the Atom food
+feed:
+  categories:
+    - news
+    - updates
 # social links
 #twitter_username: johndoe
 github_username:  abpanic
@@ -122,8 +130,8 @@ getform_endpoint: 0c3a340e-bf4c-47c2-86ce-e7ba6e89a359
 #formspree_endpoint: xyyvnzaq
 
 # releases - widget can be (sidebar, modal or embed)
-olvy_organization: Dbugr
-olvy_widget_type: sidebar
+#olvy_organization: Dbugr
+#olvy_widget_type: sidebar
 
 # syntax highlighter
 markdown: kramdown
@@ -136,9 +144,21 @@ show_author_education_details: true
 show_author_project_details: true
 
 # pagination of posts
+#paginate: nil
+#paginate_path: nil
 paginate: 4
 per_page: 4
 paginate_path: "/blog/page/:num/"
+# Pagination Settings
+#pagination:
+#  enabled: true
+#  per_page: 4
+#  paginate_path: "/blog/page/:num/"
+#  permalink: '/blog/page/:num/'
+#  title: ' - page :num'
+#  limit: 0
+#  sort_field: 'date'
+#  sort_reverse: true
 
 
 # Archives
@@ -154,13 +174,18 @@ collections:
     output: false
   authors:
     output: true
+#  blogs:
+#    output: true
+#    permalink: /blog/:path/
+
+
 
 defaults:
-  -
-    scope:
-      path: "gallery"
-    values:
-      permalink: /:path/:basename:output_ext
+  #-
+   # scope:
+   #   path: "gallery"
+   # values:
+   #   permalink: /:path/:basename:output_ext
   -
     scope:
       path: ""
@@ -176,7 +201,7 @@ defaults:
 
 # Build settings
 plugins:
-  - jekyll-paginate
+  #- jekyll-paginate
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap
