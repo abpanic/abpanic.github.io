@@ -195,8 +195,8 @@ layout: default
                     </div>
                     <div class="col-md-6">
                         <h4 class="experience-title">{{detail.college_degree }}</h4>
-                        <h6 class="experience-info">{{detail.college_name}}</h6>
+                        <h6 class="experience-info" href="{{detail.college_url}}">{{detail.college_name}}</h6></a>
                         <p class="experience-desc">{{detail.description}}</p>
-                        <p><a href="{{detail.college_url}}">{{ detail.college_url}}</a></p>
                     </div>
-                </div>: https://www.credly.com/users/{{.}} -->
+                </div>
+    {% endif %} https://www.credly.com/users/{{.}} -->
