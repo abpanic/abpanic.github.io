@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   repo: abpanic/abpanic.github.io
   branch: master
   site_domain: dbugr.netlify.app

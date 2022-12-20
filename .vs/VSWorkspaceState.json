@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\_posts"
+    "\\build",
+    "\\build\\about"
   ],
-  "SelectedNode": "\\_posts\\2022-12-17-Sorting.md",
+  "SelectedNode": "\\build\\about\\index.html",
   "PreviewInSolutionExplorer": false
 }
