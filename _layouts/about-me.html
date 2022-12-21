@@ -151,8 +151,7 @@ layout: default
                         <a href="{{exp.company_url}}">
                             <h6 class="experience-info">{{ exp.company_name}}</h6>
                         </a>
-                        <p class="experience-desc">{{ exp.description }}</p>
-                        <!--<p><a href="{{exp.company_url}}">{{ exp.company_url}}</a></p>-->
+                        <p class="experience-desc">{{ exp.description }}</p>                        
                     </div>
                 </div>
                 {% endif %} {% endfor %}
@@ -165,14 +164,15 @@ layout: default
                 == true %}
                 <div class="row">
                     <div class="col-md-2">
-                        <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}"
-                             class="company-logo" />
+                        <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}" class="company-logo" />
                     </div>
                     <div class="col-md-6">
                         <h4 class="experience-title">{{detail.college_degree }}</h4>
-                        <h6 class="experience-info" href="{{detail.college_url}}">>{{detail.college_name}}</h6></a>
+                        <a href="{{detail.college_url}}">
+                            <h6 class="experience-info" href="{{detail.college_url}}">{{detail.college_name}}</h6>
+                        </a>
                         <p class="experience-desc">{{detail.description}}</p>
-                        <!--<p><a href="{{detail.college_url}}">{{ detail.college_url}}</a></p>-->
+                        
                     </div>
                 </div>
                 {% endif %} {% endfor %}
