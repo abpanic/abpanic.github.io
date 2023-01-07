@@ -8,8 +8,17 @@ $text-width: 650px;
 
 :root {
     --background-color: #fff;
+    --alternate-background-color: #f7f7f9;
     --text-color: #121416d8;
+    --text-color-light: #777676bb;
     --link-color: #543fd7;
+    --masthead-color: #543fd7;
+    --masthead-text: #fff;
+    --button-color: #263238;
+    --button-text: #fff;
+    --bs-font-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-serif: Georgia, serif;
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 html[data-theme="dark"] {
     --bold-color: rgb(188, 188, 188);
@@ -29,7 +38,6 @@ html[data-theme="dark"] {
     --button-background-color: #111;
 }
 
-html,
 html[data-theme="light"] {
     --bold-color: rgb(0, 0, 0);
     --box-background-color: rgb(249, 249, 250);
