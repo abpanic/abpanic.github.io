@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\nginx\\html"
+    "\\nginx\\html",
+    "\\_sass"
   ],
-  "SelectedNode": "\\feed.xml",
+  "SelectedNode": "\\Gemfile",
   "PreviewInSolutionExplorer": false
 }
