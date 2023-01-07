@@ -7,6 +7,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: "https://dbugr.netlify.app/" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
 
+google_analytics: G-NMS44KQWTW
+
 # Navigation
 urls:
     - text: Home
@@ -40,21 +42,21 @@ author_work_experiences:
               company_logo: Microsoft_logo.svg
               company_url: https://microsoft.com/
               designation: Partner Technical Advisor
-              description: Worked on Digital Transformation Platform
+              description: Working on Digital Transformation Platform/Dynamics 365 CE
               visibility: true
 
             - company_name: Wipro
               company_logo: Wipro.svg
               company_url: https://www.wipro.com/
               designation: Consultant
-              description: Worked on various Azure Cloud Products
+              description: Worked on Data Engineering projects
               visibility: true
 
             - company_name: IKS Health(formerly Inventurus Knowledge Solution)
               company_logo: IKSHealth.png
               company_url: https://www.ikshealth.com/
               designation: Technical Associate
-              description: Data Engineer
+              description: Worked on Data Engineering and Web Development projects
               visibility: true
 
             - company_name: Sitel
@@ -171,8 +173,6 @@ paginate_path: "/blog/page/:num/"
 
 
 collections:
-  products:
-    output: false
   authors:
     output: true
 #  blogs:

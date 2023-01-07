@@ -92,14 +92,14 @@ layout: default
                 {% endif %}
             </div>
 
-            <div class="card">
+            <div class="side-card">
                 <h4>Skills</h4>
 
                 {%- include author_skills.html -%}
             </div>
 
             {% if site.wakatime_username %}
-            <div class="card">
+            <div class="side-card">
                 <h4>Coding Activity</h4>
 
                 {%- include coding_activity.html -%}
@@ -151,7 +151,7 @@ layout: default
                         <a href="{{exp.company_url}}">
                             <h6 class="experience-info">{{ exp.company_name}}</h6>
                         </a>
-                        <p class="experience-desc">{{ exp.description }}</p>                        
+                        <p class="experience-desc">{{ exp.description }}</p>
                     </div>
                 </div>
                 {% endif %} {% endfor %}
@@ -172,7 +172,7 @@ layout: default
                             <h6 class="experience-info" href="{{detail.college_url}}">{{detail.college_name}}</h6>
                         </a>
                         <p class="experience-desc">{{detail.description}}</p>
-                        
+
                     </div>
                 </div>
                 {% endif %} {% endfor %}

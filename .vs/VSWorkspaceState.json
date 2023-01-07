@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\nginx\\html"
+    "\\_includes",
+    "\\_sass"
   ],
-  "SelectedNode": "\\feed.xml",
+  "SelectedNode": "\\_includes\\author_skills.html",
   "PreviewInSolutionExplorer": false
 }

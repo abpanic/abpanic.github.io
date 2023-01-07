@@ -5,8 +5,8 @@
     <description>Dbugr is built on Jekyll, which is optimized for speed and readability.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 22 Dec 2022 00:13:25 +0530</pubDate>
-    <lastBuildDate>Thu, 22 Dec 2022 00:13:25 +0530</lastBuildDate>
+    <pubDate>Sat, 24 Dec 2022 20:54:47 +0530</pubDate>
+    <lastBuildDate>Sat, 24 Dec 2022 20:54:47 +0530</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
 
     
@@ -22,71 +22,78 @@
 
 &lt;p&gt;The space complexity refers to the amount of additional memory space that the algorithm requires to perform the sort.&lt;/p&gt;
 
-&lt;p&gt;Some common sorting algorithms with thier respective time and space complexities:&lt;/p&gt;
+&lt;p&gt;Some common sorting algorithms with their respective time and space complexities:&lt;/p&gt;
 
-&lt;h6 id=&quot;bubble-sort&quot;&gt;Bubble sort:&lt;/h6&gt;
+&lt;h5 id=&quot;bubble-sort&quot;&gt;Bubble sort:&lt;/h5&gt;
 
 &lt;p&gt;How it works?&lt;br /&gt;
 This algorithm compares adjacent elements and swaps them if they are in the wrong order.
 It repeats this process until the list is sorted.&lt;/p&gt;
+
 &lt;blockquote&gt;
   &lt;p&gt;Time complexity: O(n^2)&lt;br /&gt;
 Space complexity: O(1)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;Selection sort:&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;selection-sort&quot;&gt;Selection sort:&lt;/h5&gt;
 
 &lt;p&gt;How it works?&lt;br /&gt;
 This algorithm selects the smallest element in the list and swaps it with the first element.
 It then selects the second smallest element and swaps it with the second element, and so on, until the list is sorted.&lt;/p&gt;
+
 &lt;blockquote&gt;
   &lt;p&gt;Time complexity: O(n^2)&lt;br /&gt;
 Space complexity: O(1)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;Insertion sort:&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;insertion-sort&quot;&gt;Insertion sort:&lt;/h5&gt;
 
 &lt;p&gt;How it works?&lt;br /&gt;
 This algorithm starts with the second element in the list and compares it to the first element.
 If the second element is smaller, it is swapped with the first element. The algorithm then compares the third element to the first and second elements, and swaps it with the appropriate element. This process continues until the list is sorted.&lt;/p&gt;
+
 &lt;blockquote&gt;
   &lt;p&gt;Time complexity: O(n^2)&lt;br /&gt;
 Space complexity: O(1)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;Merge sort:&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;merge-sort&quot;&gt;Merge sort:&lt;/h5&gt;
 
 &lt;p&gt;How it works?&lt;br /&gt;
 This algorithm divides the list into two smaller lists, sorts each of these lists, and then merges the two sorted lists back together.&lt;/p&gt;
+
 &lt;blockquote&gt;
   &lt;p&gt;Time complexity: O(n*log(n))&lt;br /&gt;
 Space complexity: O(n)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;Quick sort:&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;quick-sort&quot;&gt;Quick sort:&lt;/h5&gt;
 
 &lt;p&gt;How it works?&lt;br /&gt;
 This algorithm selects a “pivot” element and rearranges the list so that all elements less than the pivot are placed before it and all elements greater than the pivot are placed after it.
 The algorithm then repeats this process on the sublists to the left and right of the pivot until the list is sorted.&lt;/p&gt;
+
 &lt;blockquote&gt;
   &lt;p&gt;Time complexity: O(n*log(n))&lt;br /&gt;
 Space complexity: O(log(n))&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;Heap sort:&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;heap-sort&quot;&gt;Heap sort:&lt;/h5&gt;
 
 &lt;p&gt;How it works?&lt;br /&gt;
 This algorithm uses a data structure called a heap to sort the list.
 It first builds a heap from the list, and then repeatedly removes the largest element from the heap and adds it to the sorted list until the heap is empty.&lt;/p&gt;
+
 &lt;blockquote&gt;
   &lt;p&gt;Time complexity: O(n*log(n))&lt;br /&gt;
 Space complexity: O(1)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;Counting sort:&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;counting-sort&quot;&gt;Counting sort:&lt;/h5&gt;
 
 &lt;p&gt;How it works?&lt;br /&gt;
 This algorithm works by counting the number of occurrences of each unique element in the list and using this information to determine the position of each element in the sorted list.&lt;/p&gt;
+
 &lt;blockquote&gt;
   &lt;p&gt;Time complexity: O(n+k) where k is the number of unique elements in the list&lt;br /&gt;
 Space complexity: O(k)&lt;/p&gt;
