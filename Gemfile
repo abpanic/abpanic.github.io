@@ -5,7 +5,7 @@ gem 'bundler', '~> 2.3', '>= 2.3.26'
 gem 'faraday-retry', '~> 2.0'
 gem 'backports', '~> 3.23'
 gem 'kramdown', '~> 2.4'
-gem 'puma', '~> 6.0'
+gem 'puma', '~> 6.0.2'
 gem 'jekyll-feed', '~> 0.17.0'
 #gem 'jekyll-paginate-v2', '~> 3.0'
 
