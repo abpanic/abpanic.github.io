@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\_sass"
+    "\\_authors",
+    "\\_layouts",
+    "\\_projects"
   ],
-  "SelectedNode": "\\Gemfile",
+  "SelectedNode": "\\_layouts\\default.html",
   "PreviewInSolutionExplorer": false
 }
