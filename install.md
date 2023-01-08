@@ -10,10 +10,6 @@ permalink: /get-started/
 
 If you aren’t familiar with Jekyll yet, you should know that it is a static site generator. It will transform your plain text into static websites and blogs. No more databases, slow loading websites, risk of being hacked…just your content. And not only that, with Jekyll you get free hosting with GitHub Pages! If you are a beginner we recommend you start with [Jekyll’s Docs](https://jekyllrb.com/docs/installation/). Now, if you know how to use Jekyll, let’s move on to using this theme in Jekyll:
 
-## Watch Full Tutorial Playlist here:
-
-<a href="https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB"> Youtube</a>
-
 ### Steps to create your blog using devlopr-jekyll and Host using Github Pages :
 
 >  **Step 1.**  Fork the repo - [click here](https://github.com/abpanic/devlopr-jekyll/fork)

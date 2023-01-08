@@ -5,8 +5,8 @@
     <description>Dbugr is built on Jekyll, which is optimized for speed and readability.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 07 Jan 2023 20:30:54 +0530</pubDate>
-    <lastBuildDate>Sat, 07 Jan 2023 20:30:54 +0530</lastBuildDate>
+    <pubDate>Sun, 08 Jan 2023 08:58:48 +0530</pubDate>
+    <lastBuildDate>Sun, 08 Jan 2023 08:58:48 +0530</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
 
     
@@ -320,10 +320,6 @@ It’s important to note that these time and space complexities are based on the
 ## What&apos;s Jekyll ?
 
 If you aren’t familiar with Jekyll yet, you should know that it is a static site generator. It will transform your plain text into static websites and blogs. No more databases, slow loading websites, risk of being hacked…just your content. And not only that, with Jekyll you get free hosting with GitHub Pages! If you are a beginner we recommend you start with [Jekyll’s Docs](https://jekyllrb.com/docs/installation/). Now, if you know how to use Jekyll, let’s move on to using this theme in Jekyll:
-
-## Watch Full Tutorial Playlist here:
-
-&lt;a href=&quot;https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&quot;&gt; Youtube&lt;/a&gt;
 
 ### Steps to create your blog using devlopr-jekyll and Host using Github Pages :
 
