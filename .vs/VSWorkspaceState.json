@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets\\bower_components",
-    "\\build\\projects\\WeatherDataManagement"
+    "\\_data"
   ],
-  "SelectedNode": "\\admin",
+  "SelectedNode": "\\_config.yml",
   "PreviewInSolutionExplorer": false
 }

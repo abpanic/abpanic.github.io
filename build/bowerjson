@@ -1,0 +1,22 @@
+{
+  "name": "dbugr",
+  "homepage": "https://github.com/abpanic/devlopr-jekyll",
+  "authors": [
+    "abpanic <abhilash.panicker@outlook.com>"
+  ],
+  "description": "A Jekyll Theme Built For Developers",
+  "main": "",
+  "keywords": [
+    "jekyll-theme",
+    "jekyll",
+    "gallery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
