@@ -106,9 +106,14 @@ author_project_details:
                 project_url: 
                 visibility: true
 #Badges
-#Credly: abhilash-panicker
+credly_details:
+              - credlyid: abhilash-panicker
+                badge_name: Microsoft Certified Trainer 2022-2023
+                badge_id: 90a3d6b2-1dad-4027-8979-1d6f9f222588
+                description: Demonstrate and maintain technical and instructional expertise on Microsoft technologies and who have complied with all requirements.
+                visibility: true
 
-#configuring the Atom food
+#configuring the Atom feed
 feed:
   categories:
     - news
