@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\_authors",
-    "\\_layouts",
-    "\\_projects"
+    "\\assets\\bower_components",
+    "\\build\\projects\\WeatherDataManagement"
   ],
-  "SelectedNode": "\\_layouts\\default.html",
+  "SelectedNode": "\\admin",
   "PreviewInSolutionExplorer": false
 }
