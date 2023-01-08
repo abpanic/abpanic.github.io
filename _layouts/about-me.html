@@ -14,28 +14,22 @@ layout: default
                 endif %}
 
                 <p class="profile-links">
-                  {% if site.medium_username %}
-                  <a
-                    class="social-link"
-                    href="http://medium.com/@{{ site.medium_username }}"
-                  >
-                    <i class="fab fa-medium-m"></i>
-                  </a>
-                  {% endif %} {% if site.github_username %}
-                  <a
-                    class="social-link"
-                    href="http://github.com/{{ site.github_username }}"
-                  >
-                    <i class="fab fa-github"></i>
-                  </a>
-                  {% endif %} {% if site.linkedin_username %}
-                  <a
-                    class="social-link"
-                    href="http://linkedin.com/in/{{ site.linkedin_username }}"
-                  >
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                  {% endif %} 
+                    {% if site.medium_username %}
+                    <a class="social-link"
+                       href="http://medium.com/@{{ site.medium_username }}">
+                        <i class="fab fa-medium-m"></i>
+                    </a>
+                    {% endif %} {% if site.github_username %}
+                    <a class="social-link"
+                       href="http://github.com/{{ site.github_username }}">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    {% endif %} {% if site.linkedin_username %}
+                    <a class="social-link"
+                       href="http://linkedin.com/in/{{ site.linkedin_username }}">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    {% endif %}
                 </p>
                 {% if site.author_location %}
                 <h6><a href="https://www.google.com/maps/search/?api=1&query={{ site.author_location }}" class="social-link"><i class="fas fa-map-marker-alt"></i> {{ site.author_location }}</a></h6>
@@ -123,7 +117,7 @@ layout: default
                     <div class="col-md-6">
                         <h4 class="experience-title">{{detail.college_degree }}</h4>
                         <a href="{{detail.college_url}}">
-                            <h6 class="experience-info" href="{{detail.college_url}}">{{detail.college_name}}</h6>
+                            <h6 class="experience-info">{{detail.college_name}}</h6>
                         </a>
                         <p class="experience-desc">{{detail.description}}</p>
 
@@ -131,26 +125,43 @@ layout: default
                 </div>
                 {% endif %} {% endfor %}
             </div>
-            {% endif %}
+                <div class="card">
+                    <h4 class="card-title">Credly Badges</h4>
+                    <br />
+                    {% for badge in site.credly_details %} {% if badge.visibility
+                    == true %}
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ badge.badge_logo}}"
+                                 class="company-logo" />
+                        </div>
+                        <div class="col-md-6">
+                            <a href="https://www.credly.com/badges/{{badge.badge_id}}/public_url">
+                            <h6 class="experience-info">{{badge.badge_name}}</h6></a>
+                            <p class="experience-desc">{{badge.description}}</p>
+                        </div>
+                    </div>
+                    {% endif %} {% endfor %}
+                </div>
+                {% endif %}
+            </div>
         </div>
     </div>
-</div>
 
-<!--
-    <div class="card">
-                <h4 class="card-title">Credly Badges</h4>
-                <br />
-                {% for detail in site.author_education_details %} {% if detail.visibility
-                == true %}
-                <div class="row">
-                    <div class="col-md-2">
-                        <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}"
-                             class="company-logo" />
-                    </div>
-                    <div class="col-md-6">
-                        <h4 class="experience-title">{{detail.college_degree }}</h4>
-                        <h6 class="experience-info" href="https://www.credly.com/users/{{detail.college_url}}">{{detail.college_name}}</h6></a>
-                        <p class="experience-desc">{{detail.description}}</p>
-                    </div>
-                </div>
-    {% endif %} {% endfor %}-->
+
+    <!--<div class="card">
+                   <h4 class="card-title">Credly Badges</h4>
+                   <br />
+                   {% for badge in site.credly_details %} {% if badge.visibility
+                   == true %}
+                   <div class="row">
+                       <div class="col-md-2">
+                           <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ badge.badge_logo}}"
+                                class="company-logo" />
+                       </div>
+                       <div class="col-md-6">
+                           <h6 class="experience-info" href="https://www.credly.com/users/{{detail.badge_url}}">{{detail.badge_name}}</h6></a>
+                           <p class="experience-desc">{{detail.description}}</p>
+                       </div>
+                   </div>
+       {% endif %} {% endfor %}-->
