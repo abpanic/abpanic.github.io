@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "dbugr"
-  spec.version       = "0.4.9"
+  spec.version       = "1.0"
   spec.authors       = ["abpanic"]
   spec.email         = ["abhilash.panicker@outlook.com"]
 
   spec.summary       = %q{ A Jekyll Theme built for developers }
-  spec.homepage      = "https://github.com/abpanic/devlopr-jekyll"
+  spec.homepage      = "https://github.com/abpanic/debugr-jekyll"
   spec.license       = "MIT"
 
   spec.metadata["plugin_type"] = "theme"

@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\_layouts"
+    "\\assets",
+    "\\build\\assets"
   ],
-  "SelectedNode": "\\_layouts\\about-me.html",
+  "SelectedNode": "\\_config.yml",
   "PreviewInSolutionExplorer": false
 }
