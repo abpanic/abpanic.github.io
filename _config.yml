@@ -4,7 +4,7 @@ subtitle: Abhilash Panicker's portfolio
 description: >- # this means to ignore newlines until "baseurl:"
   Dbugr is built on Jekyll, which is optimized for speed and readability.
 
-url: "https://dbugr.netlify.app/" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
 
 google_analytics: G-NMS44KQWTW
@@ -63,16 +63,16 @@ author_work_experiences:
               company_logo: sitel.jpg
               company_url: https://www.sitel.com/
               designation: SQL Technical Customer Care Professional
-              description:
+              description: Troublshooting/Debugging and advisory on MS SQL issues
               visibility: true
 
 # Education
 author_education_details:
-              - college_logo: University-of-Colorado-Boulder-Logo.png
+              - college_logo: UC_Boulder_logo.svg
                 college_name: University of Colorado Boulder
                 college_url: https://www.colorado.edu/
-                college_degree: Master of Science
-                description: DataScience(Specialization)
+                college_degree: M.S.
+                description: Specialization - DataScience
                 visibility: true
 
               - college_logo: jnu-logo.png
@@ -82,7 +82,7 @@ author_education_details:
                 description: Bachelor of Computer Applications
                 visibility: true
 
-              - college_logo: jnu-logo.png
+              - college_logo: IIT_Madras_Logo.svg
                 college_name: Indian Institue of Technology, Madras
                 college_url: https://eportfolio.mygreatlearning.com/abhilash-panicker
                 college_degree: Advanced Certification in Software Engineering for Cloud, Blockchain & IoT
@@ -111,6 +111,12 @@ credly_details:
                 badge_name: Microsoft Certified Trainer 2022-2023
                 badge_id: 90a3d6b2-1dad-4027-8979-1d6f9f222588
                 description: Demonstrate and maintain technical and instructional expertise on Microsoft technologies and who have complied with all requirements.
+                visibility: true
+              
+              - credlyid: abhilash-panicker
+                badge_name: Cloud Core
+                badge_id: a4788b8d-646c-482b-9b00-2f9c6e63bd92
+                description: Familiar with essentials of cloud applications and terms like Virtualization, VMs, Containers, Object Storage, Microservices, Serverless, Cloud Native, and DevOps
                 visibility: true
 
 #configuring the Atom feed

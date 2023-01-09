@@ -12,6 +12,8 @@ html, html[data-theme="dark"], html[data-theme="light"] { height: 100%; -moz-osx
 
 ol, ul { margin-left: 30px !important; }
 
+@media (max-width: 767px) { table { display: none; } }
+
 /* Progress bar */
 .progressline .bar { background: #f69801; }
 
@@ -80,7 +82,7 @@ header { background-color: var(--main-background-color); box-shadow: 0px; height
 /* Search Overlay */
 .icon { font-size: 35px; }
 
-.search-form-container { position: fixed; top: 60px; left: 0px; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); background-color: rgba(0, 0, 0, 0.9); /* Black with a little bit see-through */ z-index: 101; white-space: nowrap; visibility: hidden; transition: all 0.4s ease-in-out; transform: translate(0px, -100%) scale(0, 0); -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -webkit-transform: translate(0px, -100%) scale(0, 0); -moz-transform: translate(0px, -100%) scale(0, 0); -o-transform: translate(0px, -100%) scale(0, 0); -ms-transform: translate(0px, -100%) scale(0, 0); transform: translate(0px, -100%) scale(0, 0); opacity: 0; }
+.search-form-container { position: fixed; top: 60px; left: 0px; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); background-color: rgba(0, 0, 0, 0.9); /* Black with a little bit see-through */ z-index: 101; white-space: nowrap; visibility: hidden; transition: all 0.4s ease-in-out; transform: translate(0px, -100%) scale(0, 0); -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; /*-ms-transition: all 0.5s ease-in-out;*/ transition: all 0.5s ease-in-out; -webkit-transform: translate(0px, -100%) scale(0, 0); -moz-transform: translate(0px, -100%) scale(0, 0); -o-transform: translate(0px, -100%) scale(0, 0); -ms-transform: translate(0px, -100%) scale(0, 0); transform: translate(0px, -100%) scale(0, 0); opacity: 0; }
 
 .search-form-container__close { position: absolute; top: 5%; right: 10% !important; width: 5%; cursor: pointer; text-align: center; color: orange; }
 
@@ -232,6 +234,8 @@ header { background-color: var(--main-background-color); box-shadow: 0px; height
 #author_projects .project-link { color: var(--link-color); }
 
 .company-logo { width: 100px; height: 100px; }
+
+.education-logo { width: 200px; height: 100px; }
 
 .author-profile-img { width: 150px; height: 150px; border-radius: 50%; }
 
