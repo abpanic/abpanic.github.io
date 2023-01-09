@@ -29,6 +29,11 @@ layout: default
                        href="http://linkedin.com/in/{{ site.linkedin_username }}">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
+                    {% endif %}{% if site.credly_username %}
+                    <a class="social-link"
+                       href="http://credly.com/in/{{ site.credly_username }}">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
                     {% endif %}
                 </p>
                 {% if site.author_location %}
@@ -125,43 +130,36 @@ layout: default
                 </div>
                 {% endif %} {% endfor %}
             </div>
-                <div class="card">
+            <div class="card">
                     <h4 class="card-title">Credly Badges</h4>
                     <br />
                     {% for badge in site.credly_details %} {% if badge.visibility
                     == true %}
                     <div class="row">
                         <div class="col-md-2">
-                            <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ badge.badge_logo}}"
+                            <!--<img src="{{site.url}}{{site.baseurl}}/assets/img/{{ badge.badge_logo}}"
                                  class="company-logo" />
                         </div>
                         <div class="col-md-6">
-                            <a href="https://www.credly.com/badges/{{badge.badge_id}}/public_url">
-                            <h6 class="experience-info">{{badge.badge_name}}</h6></a>
-                            <p class="experience-desc">{{badge.description}}</p>
-                        </div>
-                    </div>
-                    {% endif %} {% endfor %}
-                </div>
-                {% endif %}
+                <a href="https://www.credly.com/badges/{{badge.badge_id}}/public_url">
+                <h6 class="experience-info">{{badge.badge_name}}</h6></a>
+                <p class="experience-desc">{{badge.description}}</p>
             </div>
         </div>
+        {% endif %} {% endfor %}
+    </div>-->
+                            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="90a3d6b2-1dad-4027-8979-1d6f9f222588" data-share-badge-host="https://www.credly.com">
+                            <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                            <data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a4788b8d-646c-482b-9b00-2f9c6e63bd92" data-share-badge-host="https://www.credly.com"></div>
+                            <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+
+        </div>
     </div>
+</div>
 
 
-    <!--<div class="card">
-                   <h4 class="card-title">Credly Badges</h4>
-                   <br />
-                   {% for badge in site.credly_details %} {% if badge.visibility
-                   == true %}
-                   <div class="row">
-                       <div class="col-md-2">
-                           <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ badge.badge_logo}}"
-                                class="company-logo" />
-                       </div>
-                       <div class="col-md-6">
-                           <h6 class="experience-info" href="https://www.credly.com/users/{{detail.badge_url}}">{{detail.badge_name}}</h6></a>
-                           <p class="experience-desc">{{detail.description}}</p>
-                       </div>
-                   </div>
-       {% endif %} {% endfor %}-->
+    
