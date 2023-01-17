@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets"
+    "\\assets",
+    "\\_sass"
   ],
-  "SelectedNode": "\\_config.yml",
   "PreviewInSolutionExplorer": false
 }
