@@ -10,9 +10,9 @@ permalink: /get-started/
 
 If you aren’t familiar with Jekyll yet, you should know that it is a static site generator. It will transform your plain text into static websites and blogs. No more databases, slow loading websites, risk of being hacked…just your content. And not only that, with Jekyll you get free hosting with GitHub Pages! If you are a beginner we recommend you start with [Jekyll’s Docs](https://jekyllrb.com/docs/installation/). Now, if you know how to use Jekyll, let’s move on to using this theme in Jekyll:
 
-### Steps to create your blog using devlopr-jekyll and Host using Github Pages :
+### Steps to create your blog using netlify-portfolio and Host using Github Pages :
 
->  **Step 1.**  Fork the repo - [click here](https://github.com/abpanic/devlopr-jekyll/fork)
+>  **Step 1.**  Fork the repo - [click here](https://github.com/abpanic/netlify-portfolio/fork)
 
 ![Dbugr Jekyll Repo](/assets/img/posts/fork1.PNG){:class="img-fluid"}
 
@@ -108,7 +108,7 @@ Visit [http://localhost:4000](http://localhost:4000) for development server
 
 ### Adding Content
 
-Start populating your blog by adding your .md files in _posts. devlopr-jekyll already has a few examples.
+Start populating your blog by adding your .md files in _posts. netlify-portfolio already has a few examples.
 
 #### YAML Post Example:
 
@@ -152,7 +152,7 @@ Once happy with your blog changes. Push your changes to master branch.
 
 ```bash
  $ git add .
- $ git commit -m "my new blog using devlopr-jekyll"
+ $ git commit -m "my new blog using netlify-portfolio"
  $ git push origin master
 ```
 

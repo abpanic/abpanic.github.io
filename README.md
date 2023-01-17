@@ -9,10 +9,9 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 
-
 You can use Dbugr as a starter for building your own Site. we purposely keep the styling minimal and bare to make it easier to add your own flare and markup. (Under Active Development) !
 
-![Dbugr jekyll](https://github.com/abpanic/devlopr-jekyll/blob/master/assets/img/screenshot.PNG?raw=true)
+![Dbugr jekyll](https://github.com/abpanic/netlify-portfolio/blob/master/assets/img/screenshot.PNG?raw=true)
 
 Dbugr uses Markdown Files to generate data like Blog Posts, Gallery, Shop Products etc. No external database is required.
 
@@ -146,11 +145,13 @@ We use codeQL and dependabot alerts for vulnerabality analysis & fixes.
 $ bundle audit
 ```
 
-### Deploy your dbugr-jekyll blog - One Click Deploy
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/sujaykundu777/devlopr-jekyll)
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sujaykundu777/devlopr-jekyll)
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sujaykundu777/devlopr-jekyll)
+### Deploy your netlify-portfolio blog - One Click Deploy
+
+
+[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/sujaykundu777/netlify-portfolio)
+[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sujaykundu777/netlify-portfolio)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sujaykundu777/netlify-portfolio)
 
 ### Github Actions
 
@@ -163,8 +164,10 @@ This Project has actions to auto deploy jekyll to github pages and firebase. The
 
 ### Demo (Hosted Apps)
 
+
 - Github Pages Demo - [here](https://abpanic.github.io/)
 - Netlify Demo - [here](https://dbugr.netlify.app)
+
 
 #### Features :
 
@@ -184,7 +187,7 @@ This Project has actions to auto deploy jekyll to github pages and firebase. The
 #### Jekyll Admin
 You can easily manage the site locally using the Jekyll admin : [http://localhost:4000/admin](http://localhost:4000/admin)
 
-![Jekyll Admin](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/jekyll-admin.PNG?raw=true)
+![Jekyll Admin](https://github.com/sujaykundu777/netlify-portfolio/blob/master/assets/img/jekyll-admin.PNG?raw=true)
 
 
 You can check out for all changelogs [here](https://devlopr.olvy.co/)
@@ -193,7 +196,7 @@ You can check out for all changelogs [here](https://devlopr.olvy.co/)
 
 ```s
 git remote -v
-git remote add upstream https://github.com/sujaykundu777/devlopr-jekyll.git
+git remote add upstream https://github.com/sujaykundu777/netlify-portfolio.git
 git fetch upstream
 git checkout master
 git merge upstream/master
@@ -204,11 +207,11 @@ git push
 
 Building the Image :
 
-`docker build -t my-devlopr-jekyll-blog .`
+`docker build -t my-netlify-portfolio-blog .`
 
 Running the container :
 
-`docker run -d -p 4000:4000 -it --volume="$PWD:/srv/jekyll" --name "my_blog" my-devlopr-jekyll-blog:latest jekyll serve --watch`
+`docker run -d -p 4000:4000 -it --volume="$PWD:/srv/jekyll" --name "my_blog" my-netlify-portfolio-blog:latest jekyll serve --watch`
 
 ## Using Docker Compose :
 
@@ -234,10 +237,11 @@ Once everything is good and ready to go live -
 
 `docker-compose -f docker-compose-prod.yml up --build --detach`
 
+
 ##Contributions
 Contributions are more than just welcome. Fork this repo and create a new branch, then submit a pull request
 
-- 1.Fork it [http://github.com/sujaykundu777/devlopr-jekyll/fork](http://github.com/abpanic/netlify-portfolio/fork )
+- 1.Fork it [http://github.com/abpanic/netlify-portfolio/fork](http://github.com/abpanic/netlify-portfolio/fork)
 
 - 2.Create your feature branch
 `git checkout -b my-new-feature`
