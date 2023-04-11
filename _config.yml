@@ -4,7 +4,7 @@ subtitle: Abhilash Panicker's portfolio
 description: >- # this means to ignore newlines until "baseurl:"
   Dbugr is built on Jekyll, which is optimized for speed and readability.
 
-url: "https://dbugr.netlify.app/" # the base hostname & protocol for your site
+url: "https://abpanic.github.io/" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
 
 google_analytics: G-NMS44KQWTW
@@ -31,7 +31,7 @@ author: Abhilash Panicker
 author_bio: Hi, my name is Abhilash. I am a data enthusiast, I love to talk about how data can make an impact. I am trying to put my findings to pen and paper with this site
 author_email: "abhilash.panicker@outlook.com"
 author_location: Bangalore, India
-author_website_url: "https://dbugr.netlify.app/"
+author_website_url: "https://dbugr.vercel.app/"
 typewrite-text: Dbugr is built on jekyll framework. Review, comment and share blogs about debugging , tutorials and projects.
 #background homepage cpover at /assets/img
 hero_cover_img: sample_cover.jpg 
